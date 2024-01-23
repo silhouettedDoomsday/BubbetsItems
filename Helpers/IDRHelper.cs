@@ -72,7 +72,10 @@ namespace BubbetsItems
 		Arbiter,
 		Nemmando,
 		Executioner,
-		Hand
+		Hand,
+		Nemmerc,
+		Chirr,
+		ReinSniper
 	}
 	public static class IDRHelper
 	{
@@ -142,7 +145,10 @@ namespace BubbetsItems
 			[ModdedIDRS.Nemmando]				= "NemmandoBody",
 			[ModdedIDRS.Executioner]			= "ExecutionerBody",
 			[ModdedIDRS.Hand]					= "HANDOverclockedBody",
-		};
+			[ModdedIDRS.Nemmerc]				= "NemMercBody",
+            [ModdedIDRS.Chirr]					= "ChirrBody",
+            [ModdedIDRS.ReinSniper]				= "SniperClassicBody",
+        };
 
 		public static Dictionary<VanillaIDRS, ItemDisplayRuleSet> bodyReference = new();
 		public static Dictionary<ModdedIDRS, ItemDisplayRuleSet> moddedBodyReference = new();
