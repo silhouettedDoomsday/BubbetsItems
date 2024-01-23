@@ -181,7 +181,7 @@ namespace BubbetsItems
         [SystemInitializer(typeof(BodyCatalog))]
         public static void FillIDRS()
         {
-            return;
+          
             foreach (var instance in Instances)
             {
                 instance.FillItemDisplayRules();
