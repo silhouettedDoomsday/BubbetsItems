@@ -33,11 +33,19 @@ namespace BubbetsItems.Items
 
             AddDisplayRules(VanillaIDRS.Commando, new ItemDisplayRule()
             {
+                childName = "HeadCenter",
+                localPos = new Vector3(0.0002F, -0.04676F, 0.0113F),
+                localAngles = new Vector3(287.2982F, 181.1993F, 178.6921F),
+                localScale = new Vector3(19.99757F, 19.99757F, 19.99757F)
 
             });
 
             AddDisplayRules(ModdedIDRS.Nemmando, new ItemDisplayRule()
             {
+                childName = "HeadCenter",
+                localPos = new Vector3(0.0002F, -0.04676F, 0.0113F),
+                localAngles = new Vector3(287.2982F, 181.1993F, 178.6921F),
+                localScale = new Vector3(19.99757F, 19.99757F, 19.99757F)
 
             });
 
@@ -78,6 +86,10 @@ namespace BubbetsItems.Items
 
             AddDisplayRules(VanillaIDRS.Artificer, new ItemDisplayRule()
             {
+                childName = "HeadCenter",
+                localPos = new Vector3(-0.00001F, 0.00038F, -0.04013F),
+                localAngles = new Vector3(320.1061F, 359.752F, 0.07683F),
+                localScale = new Vector3(13.32841F, 20.5073F, 13.89857F)
 
             });
 
@@ -108,6 +120,10 @@ namespace BubbetsItems.Items
 
             AddDisplayRules(VanillaIDRS.Acrid, new ItemDisplayRule()
             {
+                childName = "Head",
+                localPos = new Vector3(0.00921F, 2.24607F, 0.10421F),
+                localAngles = new Vector3(284.3495F, 14.88975F, 138.6814F),
+                localScale = new Vector3(237.8454F, 188.0181F, 585.6845F)
 
             });
 

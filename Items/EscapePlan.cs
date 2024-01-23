@@ -166,24 +166,163 @@ namespace BubbetsItems.Items
             var amt = __instance.GetBuffCount(BuffDef);
             if (amt > 0) args.moveSpeedMultAdd += 1f + amt / Granularity.Value;
         }
-        
-            /*
-            var inv = __instance.inventory;
-            if (!__instance.inventory) return;
-            _instance.Logger.LogInfo("Inventory yes");
-            var amt = inv.GetItemCount(_instance.ItemDef);
-            if (amt <= 0) return;
-            _instance.Logger.LogInfo("EscapePlan Before: " + __instance.moveSpeed);
-            //1.0f + 0.025f * (amt+1) * (1 - __instance.healthComponent.combinedHealthFraction);
-            var buff = -Mathf.Log(-(1-__instance.healthComponent.combinedHealthFraction) + 1f) * (0.65f + 0.1f * amt);
-            __instance.moveSpeed *= 1f + buff;
-            _instance.Logger.LogInfo("EscapePlan After: " + __instance.moveSpeed + " : " + buff);
-        }*/
+
+        /*
+        var inv = __instance.inventory;
+        if (!__instance.inventory) return;
+        _instance.Logger.LogInfo("Inventory yes");
+        var amt = inv.GetItemCount(_instance.ItemDef);
+        if (amt <= 0) return;
+        _instance.Logger.LogInfo("EscapePlan Before: " + __instance.moveSpeed);
+        //1.0f + 0.025f * (amt+1) * (1 - __instance.healthComponent.combinedHealthFraction);
+        var buff = -Mathf.Log(-(1-__instance.healthComponent.combinedHealthFraction) + 1f) * (0.65f + 0.1f * amt);
+        __instance.moveSpeed *= 1f + buff;
+        _instance.Logger.LogInfo("EscapePlan After: " + __instance.moveSpeed + " : " + buff);
+    }*/
         // 0.5 * x * 1(amount) = 1.25 
         // 0.1 * x * 1(amount) = 1.5
-        
+
         // 1.25 / 0.5 / 1 = x
         // x = 2.5
         // 1.5 / 0.1 = 15
+
+
+        protected override void FillItemDisplayRules()
+        {
+            base.FillItemDisplayRules();
+
+            AddDisplayRules(VanillaIDRS.Commando, new ItemDisplayRule()
+            {
+
+            });
+
+            AddDisplayRules(ModdedIDRS.Nemmando, new ItemDisplayRule()
+            {
+
+            });
+
+            AddDisplayRules(VanillaIDRS.Huntress, new ItemDisplayRule()
+            {
+
+            });
+
+            AddDisplayRules(VanillaIDRS.Bandit, new ItemDisplayRule()
+            {
+
+            });
+
+            AddDisplayRules(VanillaIDRS.Mult, new ItemDisplayRule()
+            {
+
+            });
+
+            AddDisplayRules(ModdedIDRS.Hand, new ItemDisplayRule()
+            {
+
+            });
+
+            AddDisplayRules(VanillaIDRS.Engineer, new ItemDisplayRule()
+            {
+
+            });
+
+            AddDisplayRules(ModdedIDRS.Enforcer, new ItemDisplayRule()
+            {
+
+            });
+
+            AddDisplayRules(ModdedIDRS.NemesisEnforcer, new ItemDisplayRule()
+            {
+
+            });
+
+            AddDisplayRules(VanillaIDRS.Artificer, new ItemDisplayRule()
+            {
+
+            });
+
+            AddDisplayRules(VanillaIDRS.Mercenary, new ItemDisplayRule()
+            {
+
+            });
+
+            AddDisplayRules(ModdedIDRS.NemMerc, new ItemDisplayRule()
+            {
+
+            });
+
+            AddDisplayRules(ModdedIDRS.Paladin, new ItemDisplayRule()
+            {
+
+            });
+
+            AddDisplayRules(VanillaIDRS.Rex, new ItemDisplayRule()
+            {
+
+            });
+
+            AddDisplayRules(VanillaIDRS.Loader, new ItemDisplayRule()
+            {
+
+            });
+
+            AddDisplayRules(VanillaIDRS.Acrid, new ItemDisplayRule()
+            {
+
+            });
+
+            AddDisplayRules(VanillaIDRS.Captain, new ItemDisplayRule()
+            {
+
+            });
+
+            AddDisplayRules(ModdedIDRS.Executioner, new ItemDisplayRule()
+            {
+
+            });
+
+            AddDisplayRules(ModdedIDRS.Chirr, new ItemDisplayRule()
+            {
+
+            });
+
+            AddDisplayRules(VanillaIDRS.RailGunner, new ItemDisplayRule()
+            {
+
+            });
+
+            AddDisplayRules(VanillaIDRS.VoidFiend, new ItemDisplayRule()
+            {
+
+            });
+
+
+            AddDisplayRules(ModdedIDRS.ReinSniper, new ItemDisplayRule()
+            {
+
+            });
+
+
+            AddDisplayRules(ModdedIDRS.Miner, new ItemDisplayRule()
+            {
+
+            });
+
+            AddDisplayRules(ModdedIDRS.CHEF, new ItemDisplayRule()
+            {
+
+            });
+
+            AddDisplayRules(ModdedIDRS.BanditReloaded, new ItemDisplayRule()
+            {
+
+            });
+
+            AddDisplayRules(VanillaIDRS.Scavenger, new ItemDisplayRule()
+            {
+
+            });
+        }
+
     }
 }
