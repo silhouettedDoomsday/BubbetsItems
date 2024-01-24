@@ -51,37 +51,58 @@ namespace BubbetsItems.Items
 
             AddDisplayRules(VanillaIDRS.Huntress, new ItemDisplayRule()
             {
-
+                childName = "HeadCenter",
+                localPos = new Vector3(0.0002F, -0.04676F, 0.0113F),
+                localAngles = new Vector3(287.2982F, 181.1993F, 178.6921F),
+                localScale = new Vector3(19.99757F, 19.99757F, 19.99757F)
             });
 
             AddDisplayRules(VanillaIDRS.Bandit, new ItemDisplayRule()
             {
-
+                childName = "HeadCenter",
+                localPos = new Vector3(0.0002F, -0.04676F, 0.0113F),
+                localAngles = new Vector3(287.2982F, 181.1993F, 178.6921F),
+                localScale = new Vector3(19.99757F, 19.99757F, 19.99757F)
             });
 
             AddDisplayRules(VanillaIDRS.Mult, new ItemDisplayRule()
             {
-
+                childName = "HeadCenter",
+                localPos = new Vector3(0.0002F, -0.04676F, 0.0113F),
+                localAngles = new Vector3(287.2982F, 181.1993F, 178.6921F),
+                localScale = new Vector3(19.99757F, 19.99757F, 19.99757F)
             });
 
             AddDisplayRules(ModdedIDRS.Hand, new ItemDisplayRule()
             {
-
+                childName = "HeadCenter",
+                localPos = new Vector3(0.0002F, -0.04676F, 0.0113F),
+                localAngles = new Vector3(287.2982F, 181.1993F, 178.6921F),
+                localScale = new Vector3(19.99757F, 19.99757F, 19.99757F)
             });
 
             AddDisplayRules(VanillaIDRS.Engineer, new ItemDisplayRule()
             {
-
+                childName = "HeadCenter",
+                localPos = new Vector3(0.0002F, -0.04676F, 0.0113F),
+                localAngles = new Vector3(287.2982F, 181.1993F, 178.6921F),
+                localScale = new Vector3(19.99757F, 19.99757F, 19.99757F)
             });
 
             AddDisplayRules(ModdedIDRS.Enforcer, new ItemDisplayRule()
             {
-
+                childName = "HeadCenter",
+                localPos = new Vector3(0.0002F, -0.04676F, 0.0113F),
+                localAngles = new Vector3(287.2982F, 181.1993F, 178.6921F),
+                localScale = new Vector3(19.99757F, 19.99757F, 19.99757F)
             });
 
             AddDisplayRules(ModdedIDRS.NemesisEnforcer, new ItemDisplayRule()
             {
-
+                childName = "HeadCenter",
+                localPos = new Vector3(0.0002F, -0.04676F, 0.0113F),
+                localAngles = new Vector3(287.2982F, 181.1993F, 178.6921F),
+                localScale = new Vector3(19.99757F, 19.99757F, 19.99757F)
             });
 
             AddDisplayRules(VanillaIDRS.Artificer, new ItemDisplayRule()
@@ -95,22 +116,34 @@ namespace BubbetsItems.Items
 
             AddDisplayRules(VanillaIDRS.Mercenary, new ItemDisplayRule()
             {
-
+                childName = "HeadCenter",
+                localPos = new Vector3(0.0002F, -0.04676F, 0.0113F),
+                localAngles = new Vector3(287.2982F, 181.1993F, 178.6921F),
+                localScale = new Vector3(19.99757F, 19.99757F, 19.99757F)
             });
 
             AddDisplayRules(ModdedIDRS.NemMerc, new ItemDisplayRule()
             {
-
+                childName = "HeadCenter",
+                localPos = new Vector3(0.0002F, -0.04676F, 0.0113F),
+                localAngles = new Vector3(287.2982F, 181.1993F, 178.6921F),
+                localScale = new Vector3(19.99757F, 19.99757F, 19.99757F)
             });
 
             AddDisplayRules(ModdedIDRS.Paladin, new ItemDisplayRule()
             {
-
+                childName = "HeadCenter",
+                localPos = new Vector3(0.0002F, -0.04676F, 0.0113F),
+                localAngles = new Vector3(287.2982F, 181.1993F, 178.6921F),
+                localScale = new Vector3(19.99757F, 19.99757F, 19.99757F)
             });
 
             AddDisplayRules(VanillaIDRS.Rex, new ItemDisplayRule()
             {
-
+                childName = "HeadCenter",
+                localPos = new Vector3(0.0002F, -0.04676F, 0.0113F),
+                localAngles = new Vector3(287.2982F, 181.1993F, 178.6921F),
+                localScale = new Vector3(19.99757F, 19.99757F, 19.99757F)
             });
 
             AddDisplayRules(VanillaIDRS.Loader, new ItemDisplayRule()
@@ -129,54 +162,84 @@ namespace BubbetsItems.Items
 
             AddDisplayRules(VanillaIDRS.Captain, new ItemDisplayRule()
             {
-
+                childName = "HeadCenter",
+                localPos = new Vector3(0.0002F, -0.04676F, 0.0113F),
+                localAngles = new Vector3(287.2982F, 181.1993F, 178.6921F),
+                localScale = new Vector3(19.99757F, 19.99757F, 19.99757F)
             });
 
             AddDisplayRules(ModdedIDRS.Executioner, new ItemDisplayRule()
             {
-
+                childName = "HeadCenter",
+                localPos = new Vector3(0.0002F, -0.04676F, 0.0113F),
+                localAngles = new Vector3(287.2982F, 181.1993F, 178.6921F),
+                localScale = new Vector3(19.99757F, 19.99757F, 19.99757F)
             });
 
             AddDisplayRules(ModdedIDRS.Chirr, new ItemDisplayRule()
             {
-
+                childName = "HeadCenter",
+                localPos = new Vector3(0.0002F, -0.04676F, 0.0113F),
+                localAngles = new Vector3(287.2982F, 181.1993F, 178.6921F),
+                localScale = new Vector3(19.99757F, 19.99757F, 19.99757F)
             });
 
             AddDisplayRules(VanillaIDRS.RailGunner, new ItemDisplayRule()
             {
-
+                childName = "HeadCenter",
+                localPos = new Vector3(0.0002F, -0.04676F, 0.0113F),
+                localAngles = new Vector3(287.2982F, 181.1993F, 178.6921F),
+                localScale = new Vector3(19.99757F, 19.99757F, 19.99757F)
             });
 
             AddDisplayRules(VanillaIDRS.VoidFiend, new ItemDisplayRule()
             {
-
+                childName = "HeadCenter",
+                localPos = new Vector3(0.0002F, -0.04676F, 0.0113F),
+                localAngles = new Vector3(287.2982F, 181.1993F, 178.6921F),
+                localScale = new Vector3(19.99757F, 19.99757F, 19.99757F)
             });
 
 
             AddDisplayRules(ModdedIDRS.ReinSniper, new ItemDisplayRule()
             {
-
+                childName = "HeadCenter",
+                localPos = new Vector3(0.0002F, -0.04676F, 0.0113F),
+                localAngles = new Vector3(287.2982F, 181.1993F, 178.6921F),
+                localScale = new Vector3(19.99757F, 19.99757F, 19.99757F)
             });
 
 
             AddDisplayRules(ModdedIDRS.Miner, new ItemDisplayRule()
             {
-
+                childName = "HeadCenter",
+                localPos = new Vector3(0.0002F, -0.04676F, 0.0113F),
+                localAngles = new Vector3(287.2982F, 181.1993F, 178.6921F),
+                localScale = new Vector3(19.99757F, 19.99757F, 19.99757F)
             });
 
             AddDisplayRules(ModdedIDRS.CHEF, new ItemDisplayRule()
             {
-
+                childName = "HeadCenter",
+                localPos = new Vector3(0.0002F, -0.04676F, 0.0113F),
+                localAngles = new Vector3(287.2982F, 181.1993F, 178.6921F),
+                localScale = new Vector3(19.99757F, 19.99757F, 19.99757F)
             });
 
             AddDisplayRules(ModdedIDRS.BanditReloaded, new ItemDisplayRule()
             {
-
+                childName = "HeadCenter",
+                localPos = new Vector3(0.0002F, -0.04676F, 0.0113F),
+                localAngles = new Vector3(287.2982F, 181.1993F, 178.6921F),
+                localScale = new Vector3(19.99757F, 19.99757F, 19.99757F)
             });
 
             AddDisplayRules(VanillaIDRS.Scavenger, new ItemDisplayRule()
             {
-
+                childName = "HeadCenter",
+                localPos = new Vector3(0.0002F, -0.04676F, 0.0113F),
+                localAngles = new Vector3(287.2982F, 181.1993F, 178.6921F),
+                localScale = new Vector3(19.99757F, 19.99757F, 19.99757F)
             });
 
         }
